@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="All Test Suite">
+ <listeners>
+     <listener class-name="Utils.SuiteListener"></listener>
+ </listeners>
+    <test verbose="1" preserve-order="true" name="C:/Users/saifk/eclipse-workspace/FreamworkCRM/src/main/java/qa/test">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="qa.test.loginPageTest">
+                <methods>
+                    <include name="loginToTheApplication"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

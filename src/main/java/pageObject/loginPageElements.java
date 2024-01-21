@@ -1,0 +1,14 @@
+package pageObject;
+
+public interface loginPageElements {
+
+    public interface LoginPageElements {
+
+        String emailAddress= "//input[@name='email']";
+
+        String passWord ="//input[@type='password']";
+
+        String loginBTN= "//*[text()='Login']";
+    }
+
+}
